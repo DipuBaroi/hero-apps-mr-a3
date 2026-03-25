@@ -1,9 +1,10 @@
 import React from 'react';
 import contributionImg from '../assets/contribution.png'
+import { NavLink } from 'react-router';
 
 const Navbar = () => {
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100 shadow-sm px-8 md:px-20">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -12,23 +13,34 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Home</a></li>
                         <li>
-                           <a>Apps</a>
+                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/'}>Home</NavLink>
                         </li>
-                        <li><a>Installation</a></li>
+                         <li>
+                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/apps'}>Apps</NavLink>
+                        </li>
+                         <li>
+                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/installation'}>Installation</NavLink>
+                        </li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl font-bold text-[#9F62F2]">
-                    <img className='w-6 h-6' src='./logo.png' alt="" />HERO.IO</a>
+                <NavLink to={'./'} className="flex gap-1 text-xl font-bold text-[#9F62F2]" >
+                    
+                    <img className='w-6 h-6' src='./logo.png' alt="" />
+                    <span>HERO.IO</span>
+                </NavLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                        <li>
-                           <a>Apps</a>
+                   <li>
+                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/'}>Home</NavLink>
                         </li>
-                        <li><a>Installation</a></li>
+                         <li>
+                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/apps'}>Apps</NavLink>
+                        </li>
+                         <li>
+                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/installation'}>Installation</NavLink>
+                        </li>
                 </ul>
             </div>
             <div className="navbar-end">
