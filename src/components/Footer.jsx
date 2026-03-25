@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className='px-20 py-10 bg-[#001931]'>
             <div className='flex justify-between text-white'>
-                 <NavLink to={'./'} className="flex gap-1 text-xl font-bold text-[#9F62F2]" >
+                 <NavLink to={'./'} className="flex items-center gap-1 text-xl font-bold text-[#9F62F2]" >
                     
                     <img className='w-6 h-6' src='./logo.png' alt="" />
                     <span>HERO.IO</span>

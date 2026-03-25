@@ -24,7 +24,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <NavLink to={'./'} className="flex gap-1 text-xl font-bold text-[#9F62F2]" >
+                <NavLink to={'./'} className="flex items-center gap-1 text-xl font-bold text-[#9F62F2]" >
                     
                     <img className='w-6 h-6' src='./logo.png' alt="" />
                     <span>HERO.IO</span>
@@ -44,7 +44,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <div className=' flex gap-2 px-5 py-3 rounded-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2]'>
+                <div className=' flex items-center gap-2 px-5 py-3 rounded-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2]'>
                     <img src={contributionImg} alt="" />
                 <a className=" text-white ">Contribution</a>
                 </div>
