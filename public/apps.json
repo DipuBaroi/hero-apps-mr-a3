@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.ibb.co.com/yBnhWXrx/facebook.jpg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 1,
+    "description": "Connect with friends and share updates.",
+    "size": 120,
+    "reviews": 50000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 40000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4gYY0BHs/Instagram.webp",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Share photos and short videos.",
+    "size": 150,
+    "reviews": 42000000,
+    "ratingAvg": 4.3,
+    "downloads": 3500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 33000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kVW7GNHh/messenger.png",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "Instant messaging with friends.",
+    "size": 85,
+    "reviews": 29000000,
+    "ratingAvg": 4.2,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 22500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xKDpWyjC/Whats-App.png",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 4,
+    "description": "Secure messaging and calling.",
+    "size": 100,
+    "reviews": 38000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 31000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TyP6mRh/telegram.webp",
+    "title": "Telegram",
+    "companyName": "Telegram LLC",
+    "id": 5,
+    "description": "Fast and secure messaging app.",
+    "size": 70,
+    "reviews": 25000000,
+    "ratingAvg": 4.4,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 21700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/z0LJBWp/netflix.jpg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 6,
+    "description": "Watch movies and TV shows.",
+    "size": 130,
+    "reviews": 47000000,
+    "ratingAvg": 4.0,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 25000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/svJygFMr/chorki.jpg",
+    "title": "Chorki",
+    "companyName": "Chorki Ltd.",
+    "id": 7,
+    "description": "Bangladeshi streaming platform.",
+    "size": 80,
+    "reviews": 1500000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MxRkWKYb/hoichoi-I.webp",
+    "title": "Hoichoi",
+    "companyName": "SVF Entertainment",
+    "id": 8,
+    "description": "Bengali movies and series streaming.",
+    "size": 75,
+    "reviews": 1200000,
+    "ratingAvg": 4.0,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 130000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 960000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kp6brPmS/Zee5.jpg",
+    "title": "Zee5",
+    "companyName": "Zee Entertainment",
+    "id": 9,
+    "description": "Stream movies and TV shows.",
+    "size": 95,
+    "reviews": 20000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 6000000 },
+      { "name": "5 star", "count": 10800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1GfVDPS1/youtube.jpg",
+    "title": "Youtube",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Watch and upload videos.",
+    "size": 140,
+    "reviews": 81000000,
+    "ratingAvg": 4.6,
+    "downloads": 6000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 65000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9H0Cfn8Q/sportify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 11,
+    "description": "Stream music and podcasts.",
+    "size": 90,
+    "reviews": 50000000,
+    "ratingAvg": 4.4,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 42000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/2YhC8bjd/pubg.png",
+    "title": "PUBG Mobile",
+    "companyName": "Tencent Games",
+    "id": 12,
+    "description": "Battle royale shooting game.",
+    "size": 200,
+    "reviews": 60000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 38500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GSZJQsD/free-fire.avif",
+    "title": "Free Fire",
+    "companyName": "Garena",
+    "id": 13,
+    "description": "Popular survival shooter game.",
+    "size": 180,
+    "reviews": 70000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 17000000 },
+      { "name": "5 star", "count": 42500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5W7tdvkG/subway-surfers.jpg",
+    "title": "Subway Surfers",
+    "companyName": "SYBO Games",
+    "id": 14,
+    "description": "Endless runner game.",
+    "size": 120,
+    "reviews": 40000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 26700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/39nfwTy4/candycrush.jpg",
+    "title": "Candy Crush Saga",
+    "companyName": "King",
+    "id": 15,
+    "description": "Match-3 puzzle game.",
+    "size": 110,
+    "reviews": 35000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 24000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6JsHrTd4/mx-player.avif",
+    "title": "MX Player",
+    "companyName": "Amazon India",
+    "id": 16,
+    "description": "Powerful video player.",
+    "size": 95,
+    "reviews": 30000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 18800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JWpQv2qk/file.webp",
+    "title": "File Manager",
+    "companyName": "Xiaomi Inc.",
+    "id": 17,
+    "description": "Manage files easily.",
+    "size": 50,
+    "reviews": 10000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 5700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Z6vz9PR4/Google-Drive.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 18,
+    "description": "Cloud storage service.",
+    "size": 85,
+    "reviews": 30000000,
+    "ratingAvg": 4.5,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 26500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DPVjSCVY/google-photos.png",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 19,
+    "description": "Backup and view photos.",
+    "size": 90,
+    "reviews": 25000000,
+    "ratingAvg": 4.6,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 22100000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rK5WccVs/clean-master.webp",
+    "title": "Cleaner Master",
+    "companyName": "Cheetah Mobile",
+    "id": 20,
+    "description": "Clean and optimize device.",
+    "size": 60,
+    "reviews": 15000000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  }
+]
