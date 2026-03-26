@@ -9,5 +9,5 @@ import { router } from './routes/routes'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router}/>
-  </StrictMode>,
+  </StrictMode>
 )

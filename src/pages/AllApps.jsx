@@ -13,7 +13,8 @@ const AllApps = () => {
                 <p className='text-[#627382] mb-8'>Explore All Apps on the Market developed by us. We code for Millions.</p>
             </div>
             <div className='flex justify-between items-center'>
-                <h3 className='text-lg text-[#001931] font-semibold'>(132) App Found</h3>
+                <h3 className='text-lg text-[#001931] font-semibold'>({apps.length}) App Found</h3>
+                
                 <form className='relative '>
                     <input className=' w-80 border border-gray-300 rounded-lg pl-12 py-3 focus:outline-none' type="text" placeholder='Search Apps'/>
                     <CiSearch className='absolute left-4 top-1/2 -translate-y-1/2' size={25} />
