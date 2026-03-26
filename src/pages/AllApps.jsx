@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { CiSearch } from 'react-icons/ci';
 import { useLoaderData } from 'react-router';
 import AppCard from '../components/AppCard';
 
 const AllApps = () => {
-    const apps = useLoaderData()
+    const [searchText, setSearchText] =useState('')
+    
+    const data = useLoaderData()
+    const [apps, setApps] =useState(data)
+   
+
+    const handleSearch =(e, text) =>{
+        e.preventDefault()
+        if(text.length === 0) return
+
+        const searchedApps = data.filter(app=>app.title.toLowerCase().includes(text.toLowerCase())=== true)
+        setApps(searchedApps)
+    }
+
+    
     
     return (
         <div className='w-11/12 mx-auto'>
@@ -14,9 +28,17 @@ const AllApps = () => {
             </div>
             <div className='flex justify-between items-center'>
                 <h3 className='text-lg text-[#001931] font-semibold'>({apps.length}) App Found</h3>
-                
-                <form className='relative '>
-                    <input className=' w-80 border border-gray-300 rounded-lg pl-12 py-3 focus:outline-none' type="text" placeholder='Search Apps'/>
+
+                <form onSubmit={(e)=>{
+                    handleSearch(e, searchText)
+                    setSearchText('')
+                }} className='relative '>
+                    <input 
+                    className=' w-80 border border-gray-300 rounded-lg pl-12 py-3 focus:outline-none' 
+                    type="text" 
+                    value={searchText}
+                    onChange={e=>setSearchText(e.target.value)}
+                    placeholder='Search Apps'/>
                     <CiSearch className='absolute left-4 top-1/2 -translate-y-1/2' size={25} />
                 </form>
             </div>
