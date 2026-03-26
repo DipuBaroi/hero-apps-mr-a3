@@ -17,10 +17,15 @@ const TrendingApps = ({apps}) => {
                }                             
             </div>
              <div className='mt-8 text-center'>
-                <Link to={'./apps'} className=' btn text-white rounded-lg px-5 py-3 font-semibold text-base bg-linear-to-r from-[#632EE3] to-[#9F62F2]'> Show All </Link>
+                <Link 
+                to={'./allapps'}
+                onClick={window.scrollTo(0,0)} 
+                className=' btn text-white rounded-lg px-5 py-3 font-semibold text-base bg-linear-to-r from-[#632EE3] to-[#9F62F2]'> Show All </Link>
+                
              </div>
         </div>
     );
 };
 
 export default TrendingApps;
+

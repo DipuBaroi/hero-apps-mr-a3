@@ -17,7 +17,7 @@ const Navbar = () => {
                             <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/'}>Home</NavLink>
                         </li>
                          <li>
-                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/apps'}>Apps</NavLink>
+                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/allapps'}>Apps</NavLink>
                         </li>
                          <li>
                             <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/installation'}>Installation</NavLink>
@@ -36,7 +36,7 @@ const Navbar = () => {
                             <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/'}>Home</NavLink>
                         </li>
                          <li>
-                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/apps'}>Apps</NavLink>
+                            <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/allapps'}>Apps</NavLink>
                         </li>
                          <li>
                             <NavLink className={({isActive})=> isActive? 'text-[#632EE3] underline' : ''} to={'/installation'}>Installation</NavLink>
