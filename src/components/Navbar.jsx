@@ -1,6 +1,7 @@
 import React from 'react';
 import contributionImg from '../assets/contribution.png'
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
+
 
 const Navbar = () => {
     return (
@@ -44,10 +45,12 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <div className=' flex items-center gap-2 px-5 py-3 rounded-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2]'>
+                <Link to={'https://github.com/DipuBaroi'} target='blank'>
+                    <div className=' flex items-center gap-2 px-5 py-3 rounded-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2]'>
                     <img src={contributionImg} alt="" />
-                <a className=" text-white ">Contribution</a>
+                <span className=" text-white ">Contribution</span>
                 </div>
+                </Link>
             </div>
         </div>
     );

@@ -3,6 +3,9 @@ import Banner from '../components/Banner';
 import TrendingApps from '../components/TrendingApps';
 import { useLoaderData } from 'react-router';
 
+
+
+
 const Home = () => {
     const apps = useLoaderData()
     
@@ -10,6 +13,9 @@ const Home = () => {
         <div>
           <Banner/>
           <TrendingApps apps={apps}/>
+          
+          
+          
         </div>
     );
 };
