@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImg from '../assets/logo.png'
 import { CiLinkedin } from 'react-icons/ci';
 import { FaFacebook, FaXTwitter } from 'react-icons/fa6';
 import { NavLink } from 'react-router';
@@ -9,7 +10,7 @@ const Footer = () => {
             <div className='flex justify-between text-white'>
                  <NavLink to={'./'} className="flex items-center gap-1 text-xl font-bold text-[#9F62F2]" >
                     
-                    <img className='w-6 h-6' src='./logo.png' alt="" />
+                    <img className='w-6 h-6' src={logoImg} alt="" />
                     <span>HERO.IO</span>
                 </NavLink>
                 <div>
