@@ -5,10 +5,24 @@ import InstalledApp from '../components/InstalledApp';
 
 const Installation = () => {
     const [displayApps, setDisplayApps] = useState([])
+    const [sort, setSort]= useState('')
     useEffect(()=>{
         const savedApps = getInstalls()
         setDisplayApps(savedApps)
+       
     },[])
+
+    const handleSort = (type) =>{
+        setSort(type)
+        if(type==='high'){
+            const sortedHighToLow =[...displayApps].sort((a,b)=>b.downloads-a.downloads)
+            setDisplayApps(sortedHighToLow)
+        }
+         if(type==='low'){
+            const sortedLowToHigh =[...displayApps].sort((a,b)=>a.downloads-b.downloads)
+            setDisplayApps(sortedLowToHigh)
+        }
+    }
    
     return (
         <div className='w-11/12 mx-auto'>
@@ -22,8 +36,9 @@ const Installation = () => {
                 <div className="dropdown dropdown-bottom dropdown-end">
                     <div tabIndex={0} role="button" className="btn m-1">Sort By Size <IoMdArrowDropdown size={30} /></div>
                     <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-                        <li><a>Low-High</a></li>
-                        <li><a>Hign-Low</a></li>
+                        <li><a onClick={()=>handleSort('high')}>High-Low</a></li>
+                        <li><a onClick={()=>handleSort('low')}>Low-High</a></li>
+                        
                     </ul>
                 </div>
             </div>

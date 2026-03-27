@@ -7,13 +7,13 @@ import { NavLink } from 'react-router';
 const Footer = () => {
     return (
         <div className='px-20 py-10 bg-[#001931]'>
-            <div className='flex justify-between text-white'>
+            <div className='flex flex-col md:flex-row justify-between items-center md:items text-white'>
                  <NavLink to={'./'} className="flex items-center gap-1 text-xl font-bold text-[#9F62F2]" >
                     
                     <img className='w-6 h-6' src={logoImg} alt="" />
                     <span>HERO.IO</span>
                 </NavLink>
-                <div>
+                <div className='mt-4 md:mt-0'>
                     <h3>Social Links</h3>
                     <div className='flex gap-2 mt-3'>
                         <FaXTwitter />

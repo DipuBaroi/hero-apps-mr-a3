@@ -12,8 +12,8 @@ const InstalledApp = ({ app, setDisplayApps }) => {
         toast.success('App Uninstalled Done')
     }
     return (
-        <div className='mt-8 bg-white flex justify-between items-center p-4 mb-4 rounded-lg'>
-            <div className='flex items-center gap-6'>
+        <div className='mt-8 bg-white flex flex-col md:flex-row justify-between items-center p-4 mb-4 rounded-lg'>
+            <div className='flex flex-col md:flex-row items-center gap-6'>
                 <img className='w-24 h-24 ' src={image} alt="" />
                 <div>
                     <h3 className='mb-4 font-medium'>{title} is owned by {companyName}</h3>
@@ -36,7 +36,7 @@ const InstalledApp = ({ app, setDisplayApps }) => {
                 </div>
 
             </div>
-            <button onClick={()=>handleUninstall(id)} className='btn text-white font-semibold bg-[#00D390]'>Uninstall</button>
+            <button onClick={()=>handleUninstall(id)} className='btn text-white font-semibold bg-[#00D390] mt-5 md:mt-0'>Uninstall</button>
         </div>
     );
 };
